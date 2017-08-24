@@ -2,8 +2,8 @@ package main;
 
 import java.sql.SQLException;
 
+import MotionlessElement.ModelFacade;
 import controller.ControllerFacade;
-import model.ModelFacade;
 import view.ViewFacade;
 
 /**

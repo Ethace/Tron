@@ -1,15 +1,14 @@
 package view;
 
+import java.awt.event.KeyEvent;
+
+import Tron_controller.controller.IOrderPerformer;
+import jpu2016.gameframe.IEventPerformer;
+import tron.controller.IUserOrder;
+import tron.controller.Order;
+import tron.controller.UserOrder;
+
 public class EventPerformer {
-	package jpu2016.dogfight.view;
-
-	import java.awt.event.KeyEvent;
-
-	import tron.controller.IOrderPerformer;
-	import tron.controller.IUserOrder;
-	import tron.controller.Order;
-	import tron.controller.UserOrder;
-	import tron.IEventPerformer;
 
 	class EventPerformer implements IEventPerformer {
 		private final IOrderPerformer orderPerformer;
@@ -30,21 +29,21 @@ public class EventPerformer {
 			IUserOrder userOrder;
 			switch (keyCode) {
 
-				case KeyEvent.VK_RIGHT:
-					userOrder = new UserOrder(0, Order.RIGHT);
-					break;
-				case KeyEvent.VK_LEFT:
-					userOrder = new UserOrder(0, Order.LEFT);
-					break;
+			case KeyEvent.VK_RIGHT:
+				userOrder = new UserOrder(0, Order.RIGHT);
+				break;
+			case KeyEvent.VK_LEFT:
+				userOrder = new UserOrder(0, Order.LEFT);
+				break;
 
-				case KeyEvent.VK_D:
-					userOrder = new UserOrder(1, Order.RIGHT);
-					break;
-				case KeyEvent.VK_Q:
-					userOrder = new UserOrder(1, Order.LEFT);
-					break;
-				default:
-					userOrder = null;
+			case KeyEvent.VK_D:
+				userOrder = new UserOrder(1, Order.RIGHT);
+				break;
+			case KeyEvent.VK_Q:
+				userOrder = new UserOrder(1, Order.LEFT);
+				break;
+			default:
+				userOrder = null;
 			}
 			return userOrder;
 		}

@@ -6,13 +6,13 @@ import tron.model.Direction;
 import tron.model.IMobile;
 import tron.view.IViewSystem;
 
-public class DogfightController implements IOrderPerformer {
+public class TronController implements IOrderPerformer {
 	private static int			TIME_SLEEP	= 30;
 	private final ITronModel	tronModel;
 	private final boolean		isGameOver	= false;
 	private IViewSystem			viewSystem;
 
-	public DogfightController(final ITronModel dogfightModel) {
+	public TronController(final ITronModel dogfightModel) {
 		this.tronModel = dogfightModel;
 	}
 

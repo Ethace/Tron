@@ -5,7 +5,9 @@ import java.util.Observable;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
-public class TronView {
+import jpu2016.gameframe.GameFrame;
+
+public class TronView implements IViewSystem, Runnable {
 	private final GraphicsBuilder	graphicsBuilder;
 	private final EventPerformer	eventPerformer;
 	private final Observable		observable;
@@ -13,7 +15,7 @@ public class TronView {
 
 	public TronView(final IOrderPerformer orderPerformer, final ITronModel tronModel, final Observable observable) {
 		this.observable = observable;
-		this.graphicsBuilder = new GraphicsBuilder(dogfightModel);
+		this.graphicsBuilder = new GraphicsBuilder(tronModel);
 		this.eventPerformer = new EventPerformer(orderPerformer);
 		SwingUtilities.invokeLater(this);
 	}

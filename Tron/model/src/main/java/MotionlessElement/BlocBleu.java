@@ -1,4 +1,7 @@
-package model;
+package MotionlessElement;
+
+import MotionElement.Dimension;
+import MotionElement.Position;
 
 public class BlocBleu extends NotMobile {
 	private static int		WIDTH	= 50;
@@ -8,4 +11,5 @@ public class BlocBleu extends NotMobile {
 	public BlocBleu(final Position position) {
 		super(position, new Dimension(WIDTH, HEIGHT), IMAGE);
 	}
+
 }

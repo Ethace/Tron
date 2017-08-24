@@ -1,4 +1,7 @@
-package model;
+package MotionlessElement;
+
+import MotionElement.Dimension;
+import MotionElement.Position;
 
 public class NotMobile {
 

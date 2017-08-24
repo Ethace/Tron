@@ -1,4 +1,4 @@
-package model;
+package MotionElement;
 
 public class Dimension {
 	private int	width;
