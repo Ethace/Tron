@@ -1,4 +1,4 @@
-package MotionElement;
+package ModelBase;
 
 public class Joueur {
 

@@ -1,4 +1,4 @@
-package MotionlessElement;
+package ModelBase;
 
 import java.util.ArrayList;
 
@@ -7,8 +7,6 @@ import MotionElement.IMobile;
 
 public interface ITronModel {
 	public void buildArea(final Dimension dimension);
-
-	public IArea getArea();
 
 	public void addMobile(final IMobile mobile);
 

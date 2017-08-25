@@ -1,4 +1,4 @@
-package MotionlessElement;
+package ModelBase;
 
 import java.sql.SQLException;
 import java.util.List;
