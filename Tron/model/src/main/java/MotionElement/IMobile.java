@@ -4,6 +4,7 @@ import java.awt.Image;
 
 import com.mysql.cj.x.protobuf.MysqlxCrud.Order.Direction;
 
+import ModelBase.IArea;
 import ModelBase.ITronModel;
 
 public interface IMobile {
@@ -25,6 +26,8 @@ public interface IMobile {
 	public Image getImage();
 
 	public void move();
+
+	public void placeInArea(IArea area);
 
 	public boolean isPlayer(int player);
 

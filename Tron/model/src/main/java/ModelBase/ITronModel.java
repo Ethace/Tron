@@ -17,4 +17,6 @@ public interface ITronModel {
 	public IMobile getMobileByPlayer(int player);
 
 	public void setMobilesHavesMoved();
+
+	IArea getArea();
 }
