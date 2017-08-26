@@ -2,9 +2,9 @@ package MotionlessElement;
 
 import java.awt.Image;
 
+import ModelBase.Dimension;
 import ModelBase.IArea;
-import MotionElement.Dimension;
-import MotionElement.Position;
+import ModelBase.Position;
 
 public class NotMobile implements INotMobile {
 	private final Position	position;

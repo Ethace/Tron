@@ -2,6 +2,7 @@ package controller;
 
 import java.util.ArrayList;
 
+import ModelBase.ITronModel;
 import tron.model.Direction;
 import tron.model.IMobile;
 import tron.view.IViewSystem;

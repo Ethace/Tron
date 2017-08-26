@@ -1,4 +1,4 @@
-package MotionElement;
+package ModelBase;
 
 public class Position {
 	private int	x;

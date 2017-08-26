@@ -3,11 +3,8 @@ package ModelBase;
 import java.util.ArrayList;
 import java.util.Observable;
 
-import MotionElement.Dimension;
-import MotionElement.IMobile;
-
 public class TronModel extends Observable implements ITronModel {
-	private Arena						sky;
+	private Arena						arena;
 	private final ArrayList<IMobile>	mobiles;
 
 	public TronModel() {
@@ -16,12 +13,12 @@ public class TronModel extends Observable implements ITronModel {
 
 	@Override
 	public IArea getArea() {
-		return this.sky;
+		return this.arena;
 	}
 
 	@Override
 	public void buildArea(final Dimension dimension) {
-		this.sky = new Arena(dimension);
+		this.arena = new Arena(dimension);
 	}
 
 	@Override

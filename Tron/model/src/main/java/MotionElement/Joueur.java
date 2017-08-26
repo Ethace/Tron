@@ -1,5 +1,8 @@
 package MotionElement;
 
+import ModelBase.Dimension;
+import ModelBase.Position;
+
 public class Joueur extends Mobile {
 	private static int	SPEED	= 2;
 	private static int	WIDTH	= 100;

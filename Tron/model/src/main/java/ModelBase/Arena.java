@@ -6,8 +6,6 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import MotionElement.Dimension;
-
 public class Arena implements IArea {
 	private static String	IMAGE	= "arena.png";
 	private final Dimension	dimension;

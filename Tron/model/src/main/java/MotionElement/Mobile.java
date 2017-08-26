@@ -6,8 +6,10 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import ModelBase.Dimension;
 import ModelBase.IArea;
 import ModelBase.ITronModel;
+import ModelBase.Position;
 
 public class Mobile {
 	private Direction		direction;
@@ -56,7 +58,7 @@ public class Mobile {
 		case RIGHT:
 			this.moveRight();
 			break;
-			break;
+
 		case LEFT:
 			this.moveLeft();
 			break;

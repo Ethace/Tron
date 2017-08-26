@@ -1,17 +1,14 @@
 package ModelBase;
-import java.awt.Image;
 
-import MotionElement.Dimension;
+import java.awt.Image;
 
 public interface IArea {
 
-		public Dimension getDimension();
+	public Dimension getDimension();
 
-		public int getWidth();
+	public int getWidth();
 
-		public int getHeight();
+	public int getHeight();
 
-		public Image getImage();
-	}
-
+	public Image getImage();
 }

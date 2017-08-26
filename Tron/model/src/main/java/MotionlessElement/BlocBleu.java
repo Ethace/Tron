@@ -1,8 +1,7 @@
-package ModelBase;
+package MotionlessElement;
 
-import MotionElement.Dimension;
-import MotionElement.Position;
-import MotionlessElement.NotMobile;
+import ModelBase.Dimension;
+import ModelBase.Position;
 
 public class BlocBleu extends NotMobile {
 	private static int		WIDTH	= 50;

@@ -1,11 +1,11 @@
-package MotionElement;
+package ModelBase;
 
 import java.awt.Image;
 
 import com.mysql.cj.x.protobuf.MysqlxCrud.Order.Direction;
 
-import ModelBase.IArea;
-import ModelBase.ITronModel;
+import MotionElement.Dimension;
+import MotionElement.Position;
 
 public interface IMobile {
 

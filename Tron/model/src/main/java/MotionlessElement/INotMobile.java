@@ -2,9 +2,9 @@ package MotionlessElement;
 
 import java.awt.Image;
 
+import ModelBase.Dimension;
 import ModelBase.IArea;
-import MotionElement.Dimension;
-import MotionElement.Position;
+import ModelBase.Position;
 
 public interface INotMobile {
 	public void placeInArea(final IArea area);
