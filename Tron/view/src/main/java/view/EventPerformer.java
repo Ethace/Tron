@@ -2,11 +2,11 @@ package view;
 
 import java.awt.event.KeyEvent;
 
-import Tron_controller.controller.IOrderPerformer;
+import controller.IOrderPerformer;
+import controller.IUserOrder;
+import controller.Order;
+import controller.UserOrder;
 import jpu2016.gameframe.IEventPerformer;
-import tron.controller.IUserOrder;
-import tron.controller.Order;
-import tron.controller.UserOrder;
 
 public class EventPerformer {
 
@@ -46,6 +46,14 @@ public class EventPerformer {
 				userOrder = null;
 			}
 			return userOrder;
+		}
+
+		public IOrderPerformer getOrderPerformer() {
+			return this.orderPerformer;
+		}
+
+		public void setOrderPerformer(final IOrderPerformer orderPerformer) {
+			this.orderPerformer = orderPerformer;
 		}
 	}
 
