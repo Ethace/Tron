@@ -2,7 +2,7 @@ package controller;
 
 import java.sql.SQLException;
 
-import ModelBase.IModel;
+import model.IModel;
 import view.IView;
 
 /**

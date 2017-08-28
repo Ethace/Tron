@@ -3,6 +3,8 @@ package ModelBase;
 import java.util.ArrayList;
 import java.util.Observable;
 
+import MotionElement.Joueur;
+
 public class TronModel extends Observable implements ITronModel {
 	private Arena						arena;
 	private final ArrayList<IMobile>	mobiles;
@@ -28,8 +30,8 @@ public class TronModel extends Observable implements ITronModel {
 	}
 
 	@Override
-	public void removeMobile(final IMobile mobile) {
-		this.mobiles.remove(mobile);
+	public void removeMobile(final Joueur joueur) {
+		this.mobiles.remove(joueur);
 	}
 
 	@Override
@@ -52,4 +54,5 @@ public class TronModel extends Observable implements ITronModel {
 		this.setChanged();
 		this.notifyObservers();
 	}
+
 }

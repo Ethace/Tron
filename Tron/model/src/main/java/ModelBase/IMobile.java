@@ -2,10 +2,7 @@ package ModelBase;
 
 import java.awt.Image;
 
-import com.mysql.cj.x.protobuf.MysqlxCrud.Order.Direction;
-
-import MotionElement.Dimension;
-import MotionElement.Position;
+import MotionElement.Direction;
 
 public interface IMobile {
 
@@ -31,7 +28,7 @@ public interface IMobile {
 
 	public boolean isPlayer(int player);
 
-	public void setDogfightModel(ITronModel dogfightModel);
+	public void setTronModel(ITronModel dogfightModel);
 
 	public boolean hit();
 }
