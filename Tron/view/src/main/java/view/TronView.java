@@ -5,6 +5,7 @@ import java.util.Observable;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
+import controller.IOrderPerformer;
 import jpu2016.gameframe.GameFrame;
 
 public class TronView implements IViewSystem, Runnable {

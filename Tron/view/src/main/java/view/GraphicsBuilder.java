@@ -5,8 +5,6 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 
-import Tron.Tron_contract.*;
-import Tron_model.MotionElemnt.IMobile;
 import jpu2016.gameframe.IGraphicsBuilder;
 
 class GraphicsBuilder implements IGraphicsBuilder {

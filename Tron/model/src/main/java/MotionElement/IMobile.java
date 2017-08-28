@@ -1,8 +1,11 @@
-package ModelBase;
+package MotionElement;
 
 import java.awt.Image;
 
-import MotionElement.Direction;
+import ModelBase.Dimension;
+import ModelBase.IArea;
+import ModelBase.ITronModel;
+import ModelBase.Position;
 
 public interface IMobile {
 
@@ -28,7 +31,7 @@ public interface IMobile {
 
 	public boolean isPlayer(int player);
 
-	public void setTronModel(ITronModel dogfightModel);
+	public void setTronModel(ITronModel TronModel);
 
 	public boolean hit();
 }

@@ -2,6 +2,7 @@ package ModelBase;
 
 import java.util.ArrayList;
 
+import MotionElement.IMobile;
 import MotionElement.Joueur;
 
 public interface ITronModel {

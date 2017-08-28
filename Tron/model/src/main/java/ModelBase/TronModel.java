@@ -3,6 +3,7 @@ package ModelBase;
 import java.util.ArrayList;
 import java.util.Observable;
 
+import MotionElement.IMobile;
 import MotionElement.Joueur;
 
 public class TronModel extends Observable implements ITronModel {
